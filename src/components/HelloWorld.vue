@@ -21,31 +21,30 @@ export default {
 
       this.msg = "sab kuch badal gya";
     }
+  },
+  beforeCreate() {
+    alert("brefore created fired");
+  },
+
+  created() {
+    alert("created fired");
+  },
+
+  beforeMount() {
+    alert("before mount fired");
+  },
+
+  mounted() {
+    alert("mounted fired");
+  },
+
+  beforeUpdate() {
+    alert("before upadte fired");
+  },
+
+  updated() {
+    alert("updated fired");
   }
-  // beforeCreate() {
-  //   alert('brefore created fired');
-  // },
-
-  // created() {
-  //   alert('created fired');
-  // },
-
-  // beforeMount() {
-  //   alert('before mount fired');
-  // },
-
-  // mounted() {
-  //   alert('mounted fired');
-
-  // },
-
-  // beforeUpdate() {
-  //   alert('before upadte fired');
-  // },
-
-  // updated() {
-  //   alert('updated fired');
-  // },
 };
 </script>
 
